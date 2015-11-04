@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7E9AC41BBA734900391478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7E9AC31BBA734900391478 /* AppDelegate.swift */; };
+		EE7E9AC61BBA734900391478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7E9AC51BBA734900391478 /* ViewController.swift */; };
+		EE7E9AC91BBA734900391478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7E9AC71BBA734900391478 /* Main.storyboard */; };
+		EE7E9ACB1BBA734900391478 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7E9ACA1BBA734900391478 /* Images.xcassets */; };
+		EE7E9ACE1BBA734900391478 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7E9ACC1BBA734900391478 /* LaunchScreen.xib */; };
+		EE7E9ADA1BBA734900391478 /* Topcoder_FunSeries_SurveyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7E9AD91BBA734900391478 /* Topcoder_FunSeries_SurveyAppTests.swift */; };
+		EE7E9AE41BBA763700391478 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE7E9AE31BBA763700391478 /* data.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7E9AD41BBA734900391478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7E9AB61BBA734900391478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7E9ABD1BBA734900391478;
+			remoteInfo = "Topcoder-FunSeries-SurveyApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE7E9ABE1BBA734900391478 /* Topcoder-FunSeries-SurveyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Topcoder-FunSeries-SurveyApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7E9AC21BBA734900391478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7E9AC31BBA734900391478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE7E9AC51BBA734900391478 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE7E9AC81BBA734900391478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE7E9ACA1BBA734900391478 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE7E9ACD1BBA734900391478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE7E9AD31BBA734900391478 /* Topcoder-FunSeries-SurveyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Topcoder-FunSeries-SurveyAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7E9AD81BBA734900391478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7E9AD91BBA734900391478 /* Topcoder_FunSeries_SurveyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topcoder_FunSeries_SurveyAppTests.swift; sourceTree = "<group>"; };
+		EE7E9AE31BBA763700391478 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7E9ABB1BBA734900391478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7E9AD01BBA734900391478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7E9AB51BBA734900391478 = {
+			isa = PBXGroup;
+			children = (
+				EE7E9AC01BBA734900391478 /* Topcoder-FunSeries-SurveyApp */,
+				EE7E9AD61BBA734900391478 /* Topcoder-FunSeries-SurveyAppTests */,
+				EE7E9ABF1BBA734900391478 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7E9ABF1BBA734900391478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7E9ABE1BBA734900391478 /* Topcoder-FunSeries-SurveyApp.app */,
+				EE7E9AD31BBA734900391478 /* Topcoder-FunSeries-SurveyAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE7E9AC01BBA734900391478 /* Topcoder-FunSeries-SurveyApp */ = {
+			isa = PBXGroup;
+			children = (
+				EE7E9AC31BBA734900391478 /* AppDelegate.swift */,
+				EE7E9AC51BBA734900391478 /* ViewController.swift */,
+				EE7E9AC71BBA734900391478 /* Main.storyboard */,
+				EE7E9ACA1BBA734900391478 /* Images.xcassets */,
+				EE7E9ACC1BBA734900391478 /* LaunchScreen.xib */,
+				EE7E9AC11BBA734900391478 /* Supporting Files */,
+			);
+			path = "Topcoder-FunSeries-SurveyApp";
+			sourceTree = "<group>";
+		};
+		EE7E9AC11BBA734900391478 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7E9AC21BBA734900391478 /* Info.plist */,
+				EE7E9AE31BBA763700391478 /* data.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE7E9AD61BBA734900391478 /* Topcoder-FunSeries-SurveyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7E9AD91BBA734900391478 /* Topcoder_FunSeries_SurveyAppTests.swift */,
+				EE7E9AD71BBA734900391478 /* Supporting Files */,
+			);
+			path = "Topcoder-FunSeries-SurveyAppTests";
+			sourceTree = "<group>";
+		};
+		EE7E9AD71BBA734900391478 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7E9AD81BBA734900391478 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7E9ABD1BBA734900391478 /* Topcoder-FunSeries-SurveyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7E9ADD1BBA734900391478 /* Build configuration list for PBXNativeTarget "Topcoder-FunSeries-SurveyApp" */;
+			buildPhases = (
+				EE7E9ABA1BBA734900391478 /* Sources */,
+				EE7E9ABB1BBA734900391478 /* Frameworks */,
+				EE7E9ABC1BBA734900391478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Topcoder-FunSeries-SurveyApp";
+			productName = "Topcoder-FunSeries-SurveyApp";
+			productReference = EE7E9ABE1BBA734900391478 /* Topcoder-FunSeries-SurveyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE7E9AD21BBA734900391478 /* Topcoder-FunSeries-SurveyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7E9AE01BBA734900391478 /* Build configuration list for PBXNativeTarget "Topcoder-FunSeries-SurveyAppTests" */;
+			buildPhases = (
+				EE7E9ACF1BBA734900391478 /* Sources */,
+				EE7E9AD01BBA734900391478 /* Frameworks */,
+				EE7E9AD11BBA734900391478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7E9AD51BBA734900391478 /* PBXTargetDependency */,
+			);
+			name = "Topcoder-FunSeries-SurveyAppTests";
+			productName = "Topcoder-FunSeries-SurveyAppTests";
+			productReference = EE7E9AD31BBA734900391478 /* Topcoder-FunSeries-SurveyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7E9AB61BBA734900391478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = topcoder;
+				TargetAttributes = {
+					EE7E9ABD1BBA734900391478 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					EE7E9AD21BBA734900391478 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = EE7E9ABD1BBA734900391478;
+					};
+				};
+			};
+			buildConfigurationList = EE7E9AB91BBA734900391478 /* Build configuration list for PBXProject "Topcoder-FunSeries-SurveyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7E9AB51BBA734900391478;
+			productRefGroup = EE7E9ABF1BBA734900391478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7E9ABD1BBA734900391478 /* Topcoder-FunSeries-SurveyApp */,
+				EE7E9AD21BBA734900391478 /* Topcoder-FunSeries-SurveyAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7E9ABC1BBA734900391478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7E9AC91BBA734900391478 /* Main.storyboard in Resources */,
+				EE7E9ACE1BBA734900391478 /* LaunchScreen.xib in Resources */,
+				EE7E9AE41BBA763700391478 /* data.plist in Resources */,
+				EE7E9ACB1BBA734900391478 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7E9AD11BBA734900391478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7E9ABA1BBA734900391478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7E9AC61BBA734900391478 /* ViewController.swift in Sources */,
+				EE7E9AC41BBA734900391478 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7E9ACF1BBA734900391478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7E9ADA1BBA734900391478 /* Topcoder_FunSeries_SurveyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE7E9AD51BBA734900391478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7E9ABD1BBA734900391478 /* Topcoder-FunSeries-SurveyApp */;
+			targetProxy = EE7E9AD41BBA734900391478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE7E9AC71BBA734900391478 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7E9AC81BBA734900391478 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE7E9ACC1BBA734900391478 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7E9ACD1BBA734900391478 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7E9ADB1BBA734900391478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE7E9ADC1BBA734900391478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE7E9ADE1BBA734900391478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Topcoder-FunSeries-SurveyApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE7E9ADF1BBA734900391478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Topcoder-FunSeries-SurveyApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE7E9AE11BBA734900391478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Topcoder-FunSeries-SurveyAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Topcoder-FunSeries-SurveyApp.app/Topcoder-FunSeries-SurveyApp";
+			};
+			name = Debug;
+		};
+		EE7E9AE21BBA734900391478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Topcoder-FunSeries-SurveyAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Topcoder-FunSeries-SurveyApp.app/Topcoder-FunSeries-SurveyApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7E9AB91BBA734900391478 /* Build configuration list for PBXProject "Topcoder-FunSeries-SurveyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7E9ADB1BBA734900391478 /* Debug */,
+				EE7E9ADC1BBA734900391478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7E9ADD1BBA734900391478 /* Build configuration list for PBXNativeTarget "Topcoder-FunSeries-SurveyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7E9ADE1BBA734900391478 /* Debug */,
+				EE7E9ADF1BBA734900391478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE7E9AE01BBA734900391478 /* Build configuration list for PBXNativeTarget "Topcoder-FunSeries-SurveyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7E9AE11BBA734900391478 /* Debug */,
+				EE7E9AE21BBA734900391478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7E9AB61BBA734900391478 /* Project object */;
+}
