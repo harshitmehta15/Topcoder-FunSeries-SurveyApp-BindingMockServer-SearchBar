@@ -41,10 +41,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         }
         print(tableData);*/
         
-        var JSONData:NSData = getJSON("http://www.mocky.io/v2/560920cc9665b96e1e69bb46")
+        let JSONData:NSData = getJSON("http://www.mocky.io/v2/560920cc9665b96e1e69bb46")
         
         tableData = parseJSON(JSONData)
-        println(tableData) // show me data
+        print(tableData) // show me data
         SurveyTable.reloadData()
         
         for(i=0; i < tableData.count ; i++)
@@ -54,7 +54,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             titleData.insert(temp, atIndex: i);
             
         }
-        println(titleData);
+        print(titleData);
         //filteredData = titleData
         
 
@@ -62,7 +62,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     //Search Bar functions
     func searchBar(searchBar: UISearchBar, textDidChange searchText: String){
-        println("india");
+        print("india");
         flag = true;
         self.filteredData = self.titleData.filter({ (title : String) -> Bool in
             let stringForSearch = title.rangeOfString(searchText)
@@ -85,7 +85,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     func parseJSON(inputData: NSData) -> NSArray{
         var error: NSError?
-        var data: NSArray = NSJSONSerialization.JSONObjectWithData(inputData, options: NSJSONReadingOptions.MutableContainers, error: &error) as! NSArray
+        let data: NSArray = (try! NSJSONSerialization.JSONObjectWithData(inputData, options: NSJSONReadingOptions.MutableContainers)) as! NSArray
         
         return data
     }
@@ -138,9 +138,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                 countryName = titleData[indexPath.row]
             }
             
-            cell1.textLabel?!.text = countryName
+            cell1.textLabel?.text = countryName
             
-            return cell1 as! UITableViewCell
+            return cell1 
     }
     
     
